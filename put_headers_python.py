@@ -1,3 +1,8 @@
+##=============================================================================
+## This script put a simple header to python files.
+## Author: Agustin Jesus Durand Diaz.
+##-----------------------------------------------------------------------------
+
 import os
 import sys
 
@@ -19,7 +24,7 @@ def put_header(filename, header):
 
 headerBase = '\
 ## ========================================================================= ##\n\
-## Copyright (c) 2019 Agustin Durand Diaz.                                   ##\n\
+## Copyright (c) 2019 Agustin Jesus Durand Diaz.                             ##\n\
 ## This code is licensed under the MIT license.                              ##\n\
 ## XXX                                                                       ##\n\
 ## ========================================================================= ##'
