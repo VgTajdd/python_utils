@@ -17,10 +17,10 @@ def put_header(filename, header):
         #print(line)
         content += ('\n'+ line)
 
-	open(filename, "w").close() # Overwrite
+    open(filename, "w").close() # Overwrite
 
-	with open(filename, 'a') as out:
-	    out.write(content)
+    with open(filename, 'a') as out:
+        out.write(content)
 
 headerBase = '\
 ## ========================================================================= ##\n\
@@ -45,12 +45,12 @@ for root, subdirs, files in os.walk(walk_dir):
         filePath = os.path.join(root, filename)
 
         if filename == '__init__.py':
-        	print("SKIPPED: " + filePath)
-        	continue
+            print("SKIPPED: " + filePath)
+            continue
 
         if not filename.lower().endswith(('.py')):
-        	print("SKIPPED: " + filePath)
-        	continue
+            print("SKIPPED: " + filePath)
+            continue
 
         newHeader = headerBase[:indexForFilename] + filename + headerBase[(indexForFilename+len(filename)):]
 
