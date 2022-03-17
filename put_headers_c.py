@@ -24,8 +24,8 @@ def put_header(filename, header):
 
 headerBase = '\
 // ========================================================================= //\n\
-// Copyright (c) 2020 Agustin Jesus Durand Diaz.                             //\n\
-// This code is licensed under the MIT license.                              //\n\
+// Copyright (c) 2022 Agustin Jesus Durand Diaz.                             //\n\
+// This code is licensed under the Apache License 2.0.                       //\n\
 // XXX                                                                       //\n\
 // ========================================================================= //'
 
