@@ -1,2 +1,2 @@
-pypdf==6.9.2
+pypdf==6.10.0
 typing_extensions==4.7.1
