@@ -1,5 +1,5 @@
 import os
-from PyPDF2 import PdfMerger
+from pypdf import PdfMerger
 
 source_dir = "./dir/"
 merger = PdfMerger()
