@@ -24,7 +24,7 @@ echo "python Version:"
 
 :: This creates a directory called venv with a copy of python,
 :: but it needs to be activated.
-%pythonExe% -m virtualenv venv
+%pythonExe% -m virtualenv "%CURRENT_DIR%venv"
 
 endlocal
 
